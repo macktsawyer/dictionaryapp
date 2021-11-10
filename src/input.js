@@ -43,6 +43,9 @@ const Input = () => {
 
     return (
         <div>
+            <div className="header">
+                <h1>Macktionary</h1>
+            </div>
             <div className="searchForm">
                 <form onSubmit={handleSubmit}>
                     <input className="searchBar" type="text" name="search" value={search} placeholder="Search" 
