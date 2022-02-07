@@ -39,8 +39,6 @@ const Input = () => {
         setLoading(false);
     },[url])
 
-    console.log(final)
-
     return (
         <div>
             <div className="header">
